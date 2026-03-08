@@ -1,1 +1,204 @@
-# https-abhiverma.github.io-portfolio-
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Abhi Verma | Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #0f172a;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 10%;
+            background: #020617;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 80px 10%;
+        }
+
+        .hero img {
+            width: 280px;
+            border-radius: 20px;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+        }
+
+        .btn {
+            background: #38bdf8;
+            padding: 12px 25px;
+            border-radius: 10px;
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 80px 10%;
+        }
+
+        .skills div {
+            margin: 10px 0;
+        }
+
+        .bar {
+            background: #1e293b;
+            border-radius: 10px;
+        }
+
+        .bar span {
+            display: block;
+            padding: 8px;
+            background: #38bdf8;
+            border-radius: 10px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #020617;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <h2>Abhi Verma</h2>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <div class="hero">
+
+        <div>
+            <h1>Hi, I'm Abhi Verma</h1>
+
+            <p>B.Tech CSE (AI & ML) Student passionate about programming and technology.</p>
+
+            <a class="btn" href="#contact">Hire Me</a>
+
+        </div>
+
+        <img src="C:\Users\Abhi Verma\OneDrive\Desktop\me.jpg">
+
+    </div>
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            I am Abhi Verma, a B.Tech CSE (AI & ML) student from JMIETI Radaur.
+            I love coding and building projects using Python and web technologies.
+        </p>
+
+    </section>
+
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skills">
+
+            <div>Python
+                <div class="bar"><span style="width:80%">65%</span></div>
+            </div>
+
+            <div>C / C++
+                <div class="bar"><span style="width:80%">70%</span></div>
+            </div>
+
+            <div>JavaScript
+                <div class="bar"><span style="width:70%">75%</span></div>
+            </div>
+
+            <div>HTML & CSS
+                <div class="bar"><span style="width:85%">85%</span></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="projects">
+
+        <h2>Projects for learning</h2>
+
+        <div class="projects">
+
+            <div class="card">
+                <h3>Jarvis AI Assistant</h3>
+                <p>Voice assistant built using Python.</p>
+            </div>
+
+            <div class="card">
+                <h3>Skill Gap Analysis</h3>
+                <p>Dashboard to match resume with job roles.</p>
+            </div>
+
+            <div class="card">
+                <h3>Bee Hardware Project</h3>
+                <p>Project based on bee structure using materials.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <p>Email: vabhi7768@gmail.com</p>
+        <p>Linkedln: https://www.linkedin.com/in/abhi-verma-455a56333</p>
+
+    </section>
+
+    <footer>
+
+        <p> 2026 Abhi Verma</p>
+
+    </footer>
+
+</body>
+
+</html>

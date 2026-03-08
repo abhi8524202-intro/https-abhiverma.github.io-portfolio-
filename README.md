@@ -118,8 +118,7 @@
 
         </div>
 
-        <img src="C:\Users\Abhi Verma\OneDrive\Desktop\me.jpg">
-
+        <img src="me.jpg" width="200">
     </div>
 
     <section id="about">
